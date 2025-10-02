@@ -1,0 +1,12 @@
+[submodule "src/SuperOdom"]
+	path = src/SuperOdom
+	url = https://github.com/superxslam/SuperOdom.git
+[submodule "src/livox_ros_driver2"]
+	path = src/livox_ros_driver2
+	url = https://github.com/Livox-SDK/livox_ros_driver2.git
+[submodule "src/rviz_2d_overlay_plugins"]
+	path = src/rviz_2d_overlay_plugins
+	url = https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins.git
+[submodule "src/ego-planner-swarm"]
+	path = src/ego-planner-swarm
+	url = https://github.com/ZJU-FAST-Lab/ego-planner-swarm.git
