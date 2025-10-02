@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/unitree/nav_proj/install/go2_driver/include/**",
+                "/home/unitree/nav_proj/install/unitree_go/include/**",
+                "/home/unitree/nav_proj/install/unitree_api/include/**",
+                "/home/unitree/nav_proj/install/turtlesim/include/**",
+                "/home/unitree/nav_proj/install/pointcloud_to_laserscan/include/**",
+                "/home/unitree/nav_proj/install/fast_lio/include/**",
+                "/home/unitree/nav_proj/install/livox_ros_driver2/include/**",
+                "/home/unitree/nav_proj/install/lio_sam_ros2/include/**",
+                "/home/unitree/nav_proj/install/go2_interfaces/include/**",
+                "/home/unitree/nav_proj/src/livox_ros_driver2/install/livox_ros_driver2/include/**",
+                "/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/include/**",
+                "/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_hg/include/**",
+                "/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_go/include/**",
+                "/home/unitree/unitree_ros2/cyclonedds_ws/install/unitree_api/include/**",
+                "/opt/ros/foxy/include/**",
+                "/home/unitree/ros2_ws/src/SuperOdom/super_odometry/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/src/ego-planner-swarm/src/planner/plan_manage/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-arm64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
