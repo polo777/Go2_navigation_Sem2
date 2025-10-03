@@ -20,27 +20,39 @@ def generate_launch_description():
         'rviz_config_file', default_value=rviz_config_file,
         description='Config file for rviz visualisation')
 
-    # super_odometry_dir = get_package_share_directory('super_odometry')
-    # super_odometry_cmd = IncludeLaunchDescription(
-    #     PythonLaunchDescriptionSource(
-    #         os.path.join(super_odometry_dir, 'launch', 'livox_mid360.launch.py')
-    #     ),
-    #     # launch_arguments={
-    #     #     '<argument>': '<value>'
-    #     # }.items()
-    # )
-
-    ego_planner_dir = get_package_share_directory('ego_planner')
-    ego_planner_cmd = TimerAction(
-            period=10.0,
-            actions = [IncludeLaunchDescription(
+    super_odometry_dir = get_package_share_directory('super_odometry')
+    super_odometry_cmd = TimerAction(
+        period=1.0,
+        actions = [
+            IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
-                os.path.join(ego_planner_dir, 'launch', 'go2_run.launch.py')
+                os.path.join(super_odometry_dir, 'launch', 'livox_mid360.launch.py')
             ),
             # launch_arguments={
             #     '<argument>': '<value>'
             # }.items()
-            )]
+            )
+        ]
+    )
+
+    ego_planner_dir = get_package_share_directory('ego_planner')
+    ego_planner_cmd = TimerAction(
+            period=0.0,
+            actions = [
+                IncludeLaunchDescription(
+                PythonLaunchDescriptionSource(
+                    os.path.join(ego_planner_dir, 'launch', 'go2_run.launch.py')
+                ),
+                # launch_arguments={
+                #     '<argument>': '<value>'
+                # }.items()
+                )
+            ]
+    )
+    
+    goal_relay_node = Node(
+        package='waypoint_generator',
+        executable='goal_relay',
     )
 
     rviz_node = Node(
@@ -53,9 +65,10 @@ def generate_launch_description():
     ld = LaunchDescription()
 
     # Nodes and LaunchFiles
-    # ld.add_action(super_odometry_cmd)
-    ld.add_action(rviz_node)
     ld.add_action(ego_planner_cmd)
+    ld.add_action(super_odometry_cmd)
+    ld.add_action(rviz_node)
+    ld.add_action(goal_relay_node)
 
     # Launch Arguments
     ld.add_action(launch_rviz_cmd)
