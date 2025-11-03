@@ -1,0 +1,3 @@
+[ 83%] Built target odom_tf_broadcaster
+[ 83%] Built target transform_remapper
+[ 83%] [32mBuilding CXX object CMakeFiles/footprint_transform_publisher.dir/src/footprint_transform_publisher.cpp.o[0m

@@ -1,0 +1,1 @@
+/root/ros2_ws/src/build/go2_bringup/ament_cmake_core/go2_bringupConfig-version.cmake

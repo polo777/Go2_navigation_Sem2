@@ -1,0 +1,14 @@
+[0.028s] Invoking command in '/root/ros2_ws/src/build/go2_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/go2_nav2 -- -j8 -l8
+[0.125s] [35m[1mConsolidate compiler generated dependencies of target tf_tree_publisher_node[0m
+[0.150s] [ 12%] [32mBuilding CXX object CMakeFiles/tf_tree_publisher_node.dir/src/tf_tree_publisher_node.cpp.o[0m
+[0.161s] [ 37%] Built target odom_tf_broadcaster
+[0.161s] [ 62%] Built target transform_remapper
+[0.173s] [ 87%] Built target footprint_transform_publisher
+[0.619s] [01m[K/root/ros2_ws/src/go2_nav2/src/tf_tree_publisher_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/odometry.hpp: No such file or directory
+[0.619s]     2 | #include [01;31m[K<nav_msgs/msg/odometry.hpp>[m[K
+[0.619s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.619s] compilation terminated.
+[0.624s] gmake[2]: *** [CMakeFiles/tf_tree_publisher_node.dir/build.make:76: CMakeFiles/tf_tree_publisher_node.dir/src/tf_tree_publisher_node.cpp.o] Error 1
+[0.625s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/tf_tree_publisher_node.dir/all] Error 2
+[0.625s] gmake: *** [Makefile:146: all] Error 2
+[0.630s] Invoked command in '/root/ros2_ws/src/build/go2_nav2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/go2_nav2 -- -j8 -l8

@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target footprint_transform_publisher[0m
+[ 66%] Built target odom_tf_broadcaster
+[ 66%] Built target transform_remapper
+[ 83%] [32mBuilding CXX object CMakeFiles/footprint_transform_publisher.dir/src/footprint_transform_publisher.cpp.o[0m

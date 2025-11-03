@@ -23,7 +23,8 @@
                 "/opt/ros/foxy/include/**",
                 "/home/unitree/ros2_ws/src/SuperOdom/super_odometry/include/**",
                 "/usr/include/**",
-                "${workspaceFolder}/src/ego-planner-swarm/src/planner/plan_manage/include"
+                "${workspaceFolder}/src/ego-planner-swarm/src/planner/plan_manage/include",
+                "/opt/ros/foxy/include*"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-arm64",

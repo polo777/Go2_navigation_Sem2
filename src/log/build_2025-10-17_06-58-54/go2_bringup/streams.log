@@ -1,0 +1,24 @@
+[0.025s] Invoking command in '/root/ros2_ws/src/build/go2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/go2_bringup -- -j8 -l8
+[0.100s] Invoked command in '/root/ros2_ws/src/build/go2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/go2_bringup -- -j8 -l8
+[0.120s] Invoking command in '/root/ros2_ws/src/build/go2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/go2_bringup
+[0.134s] -- Install configuration: ""
+[0.134s] -- Execute custom install script
+[0.135s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_bringup/share/go2_bringup/launch/ego_planner_nav.launch.py
+[0.135s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_bringup/share/go2_bringup/launch/nav2_testing.launch.py
+[0.135s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_bringup/share/go2_bringup/launch/super_odom.launch.py
+[0.135s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_bringup/share/ament_index/resource_index/package_run_dependencies/go2_bringup
+[0.135s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_bringup/share/ament_index/resource_index/parent_prefix_path/go2_bringup
+[0.136s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_bringup/share/go2_bringup/environment/ament_prefix_path.sh
+[0.136s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_bringup/share/go2_bringup/environment/ament_prefix_path.dsv
+[0.136s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_bringup/share/go2_bringup/environment/path.sh
+[0.136s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_bringup/share/go2_bringup/environment/path.dsv
+[0.137s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_bringup/share/go2_bringup/local_setup.bash
+[0.137s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_bringup/share/go2_bringup/local_setup.sh
+[0.137s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_bringup/share/go2_bringup/local_setup.zsh
+[0.137s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_bringup/share/go2_bringup/local_setup.dsv
+[0.137s] -- Symlinking: /root/ros2_ws/src/install/go2_bringup/share/go2_bringup/package.dsv
+[0.154s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_bringup/share/ament_index/resource_index/packages/go2_bringup
+[0.154s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_bringup/share/go2_bringup/cmake/go2_bringupConfig.cmake
+[0.155s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_bringup/share/go2_bringup/cmake/go2_bringupConfig-version.cmake
+[0.155s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_bringup/share/go2_bringup/package.xml
+[0.159s] Invoked command in '/root/ros2_ws/src/build/go2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/go2_bringup

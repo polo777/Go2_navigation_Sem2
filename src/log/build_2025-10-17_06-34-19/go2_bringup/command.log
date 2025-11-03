@@ -1,0 +1,4 @@
+Invoking command in '/root/ros2_ws/src/build/go2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/go2_bringup -- -j8 -l8
+Invoked command in '/root/ros2_ws/src/build/go2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/go2_bringup -- -j8 -l8
+Invoking command in '/root/ros2_ws/src/build/go2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/go2_bringup
+Invoked command in '/root/ros2_ws/src/build/go2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/go2_bringup

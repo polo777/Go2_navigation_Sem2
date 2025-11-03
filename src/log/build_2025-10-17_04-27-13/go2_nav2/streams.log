@@ -1,0 +1,60 @@
+[0.024s] Invoking command in '/root/ros2_ws/src/build/go2_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/go2_nav2 -- -j8 -l8
+[0.077s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.298s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.312s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.359s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.362s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.370s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.385s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.405s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.453s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.456s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.484s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.555s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.596s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[0.601s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.723s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.784s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.786s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.786s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.802s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.924s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.925s] -- Configured cppcheck include dirs: /root/ros2_ws/src/go2_nav2/include
+[0.925s] -- Configured cppcheck exclude dirs and/or files: 
+[0.926s] -- Added test 'lint_cmake' to check CMake code style
+[0.927s] -- Added test 'uncrustify' to check C / C++ code style
+[0.927s] -- Configured uncrustify additional arguments: 
+[0.927s] -- Added test 'xmllint' to check XML markup files
+[0.929s] -- Configuring done
+[0.962s] -- Generating done
+[0.973s] -- Build files have been written to: /root/ros2_ws/src/build/go2_nav2
+[1.042s] [35m[1mConsolidate compiler generated dependencies of target odom_tf_broadcaster[0m
+[1.042s] [35m[1mConsolidate compiler generated dependencies of target transform_remapper[0m
+[1.061s] [ 16%] [32mBuilding CXX object CMakeFiles/footprint_transform_publisher.dir/src/footprint_transform_publisher.cpp.o[0m
+[1.085s] [ 83%] Built target odom_tf_broadcaster
+[1.085s] [ 83%] Built target transform_remapper
+[9.274s] [100%] [32m[1mLinking CXX executable footprint_transform_publisher[0m
+[9.626s] [100%] Built target footprint_transform_publisher
+[9.658s] Invoked command in '/root/ros2_ws/src/build/go2_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/go2_nav2 -- -j8 -l8
+[9.677s] Invoking command in '/root/ros2_ws/src/build/go2_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/go2_nav2
+[9.690s] -- Install configuration: ""
+[9.690s] -- Execute custom install script
+[9.691s] -- Symlinking: /root/ros2_ws/src/install/go2_nav2/lib/go2_nav2/odom_tf_broadcaster
+[9.707s] -- Symlinking: /root/ros2_ws/src/install/go2_nav2/lib/go2_nav2/transform_remapper
+[9.728s] -- Symlinking: /root/ros2_ws/src/install/go2_nav2/lib/go2_nav2/footprint_transform_publisher
+[9.746s] -- Symlinking: /root/ros2_ws/src/install/go2_nav2/share/ament_index/resource_index/package_run_dependencies/go2_nav2
+[9.762s] -- Symlinking: /root/ros2_ws/src/install/go2_nav2/share/ament_index/resource_index/parent_prefix_path/go2_nav2
+[9.780s] -- Symlinking: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/environment/ament_prefix_path.sh
+[9.802s] -- Symlinking: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/environment/ament_prefix_path.dsv
+[9.819s] -- Symlinking: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/environment/path.sh
+[9.834s] -- Symlinking: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/environment/path.dsv
+[9.851s] -- Symlinking: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/local_setup.bash
+[9.878s] -- Symlinking: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/local_setup.sh
+[9.894s] -- Symlinking: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/local_setup.zsh
+[9.912s] -- Symlinking: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/local_setup.dsv
+[9.935s] -- Symlinking: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/package.dsv
+[9.952s] -- Symlinking: /root/ros2_ws/src/install/go2_nav2/share/ament_index/resource_index/packages/go2_nav2
+[9.975s] -- Symlinking: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/cmake/go2_nav2Config.cmake
+[9.991s] -- Symlinking: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/cmake/go2_nav2Config-version.cmake
+[10.014s] -- Symlinking: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/package.xml
+[10.036s] Invoked command in '/root/ros2_ws/src/build/go2_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/go2_nav2

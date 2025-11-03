@@ -1,0 +1,48 @@
+[0.027s] Invoking command in '/root/ros2_ws/src/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/pointcloud_to_laserscan -- -j8 -l8
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target laserscan_to_pointcloud_node[0m
+[0.134s] [35m[1mConsolidate compiler generated dependencies of target laserscan_to_pointcloud[0m
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target pointcloud_to_laserscan_node[0m
+[0.180s] [ 20%] Built target laserscan_to_pointcloud_node
+[0.185s] [ 40%] Built target pointcloud_to_laserscan_node
+[0.185s] [ 60%] Built target laserscan_to_pointcloud
+[0.209s] [35m[1mConsolidate compiler generated dependencies of target pointcloud_to_laserscan[0m
+[0.252s] [ 80%] Built target pointcloud_to_laserscan
+[0.274s] [35m[1mConsolidate compiler generated dependencies of target dummy_pointcloud_publisher[0m
+[0.308s] [100%] Built target dummy_pointcloud_publisher
+[0.331s] Invoked command in '/root/ros2_ws/src/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/pointcloud_to_laserscan -- -j8 -l8
+[0.351s] Invoking command in '/root/ros2_ws/src/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/pointcloud_to_laserscan
+[0.365s] -- Install configuration: ""
+[0.366s] -- Execute custom install script
+[0.366s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
+[0.366s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+[0.367s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp
+[0.367s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
+[0.367s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/visibility_control.h
+[0.368s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.sh
+[0.368s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.dsv
+[0.368s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so
+[0.368s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+[0.369s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher
+[0.369s] -- Symlinking: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/go2_pointcloud_to_laserscan.launch.py
+[0.386s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py
+[0.386s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
+[0.386s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
+[0.386s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
+[0.387s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh
+[0.387s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv
+[0.387s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh
+[0.387s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv
+[0.388s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash
+[0.388s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh
+[0.388s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh
+[0.388s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv
+[0.388s] -- Symlinking: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv
+[0.406s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan
+[0.406s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan
+[0.406s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.406s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.406s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake
+[0.407s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+[0.407s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+[0.407s] -- Up-to-date symlink: /root/ros2_ws/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml
+[0.412s] Invoked command in '/root/ros2_ws/src/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/pointcloud_to_laserscan

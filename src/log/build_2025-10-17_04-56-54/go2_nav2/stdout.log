@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target tf_tree_publisher_node[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/tf_tree_publisher_node.dir/src/tf_tree_publisher_node.cpp.o[0m
+[ 37%] Built target odom_tf_broadcaster
+[ 62%] Built target transform_remapper
+[ 87%] Built target footprint_transform_publisher

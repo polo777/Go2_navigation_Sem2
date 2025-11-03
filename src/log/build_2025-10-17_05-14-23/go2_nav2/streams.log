@@ -1,0 +1,32 @@
+[0.026s] Invoking command in '/root/ros2_ws/src/build/go2_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/go2_nav2 -- -j8 -l8
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target tf_tree_publisher_node[0m
+[0.154s] [ 75%] Built target odom_tf_broadcaster
+[0.154s] [ 75%] Built target footprint_transform_publisher
+[0.154s] [ 75%] Built target transform_remapper
+[0.163s] [ 87%] [32mBuilding CXX object CMakeFiles/tf_tree_publisher_node.dir/src/tf_tree_publisher_node.cpp.o[0m
+[15.306s] [100%] [32m[1mLinking CXX executable tf_tree_publisher_node[0m
+[16.169s] [100%] Built target tf_tree_publisher_node
+[16.192s] Invoked command in '/root/ros2_ws/src/build/go2_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/go2_nav2 -- -j8 -l8
+[16.211s] Invoking command in '/root/ros2_ws/src/build/go2_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/go2_nav2
+[16.227s] -- Install configuration: ""
+[16.227s] -- Execute custom install script
+[16.228s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/lib/go2_nav2/odom_tf_broadcaster
+[16.228s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/lib/go2_nav2/transform_remapper
+[16.228s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/lib/go2_nav2/footprint_transform_publisher
+[16.228s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/lib/go2_nav2/tf_tree_publisher_node
+[16.229s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/ament_index/resource_index/package_run_dependencies/go2_nav2
+[16.229s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/ament_index/resource_index/parent_prefix_path/go2_nav2
+[16.229s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/environment/ament_prefix_path.sh
+[16.230s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/environment/ament_prefix_path.dsv
+[16.230s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/environment/path.sh
+[16.230s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/environment/path.dsv
+[16.230s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/local_setup.bash
+[16.230s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/local_setup.sh
+[16.231s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/local_setup.zsh
+[16.231s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/local_setup.dsv
+[16.231s] -- Symlinking: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/package.dsv
+[16.250s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/ament_index/resource_index/packages/go2_nav2
+[16.250s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/cmake/go2_nav2Config.cmake
+[16.250s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/cmake/go2_nav2Config-version.cmake
+[16.250s] -- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/package.xml
+[16.254s] Invoked command in '/root/ros2_ws/src/build/go2_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/go2_nav2

@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-db659016cd4739b40707.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "go2_nav2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "footprint_transform_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-footprint_transform_publisher-3624624d067eac04e93d.json",
+					"name" : "footprint_transform_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go2_nav2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go2_nav2_uninstall-5472f5f7c2986ece30cd.json",
+					"name" : "go2_nav2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odom_tf_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odom_tf_broadcaster-99fb9d189b640b9f4def.json",
+					"name" : "odom_tf_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf_tree_publisher_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf_tree_publisher_node-0de30d28cf85c3dba352.json",
+					"name" : "tf_tree_publisher_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "transform_remapper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-transform_remapper-3e2c3534d3615e947980.json",
+					"name" : "transform_remapper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5170c869f0ff5525f6d7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros2_ws/src/build/go2_nav2",
+		"source" : "/root/ros2_ws/src/go2_nav2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

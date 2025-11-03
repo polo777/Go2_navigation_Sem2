@@ -1,0 +1,12 @@
+[0.027s] Invoking command in '/root/ros2_ws/src/build/go2_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/go2_nav2 -- -j8 -l8
+[0.148s] [ 83%] Built target odom_tf_broadcaster
+[0.149s] [ 83%] Built target transform_remapper
+[0.149s] [ 83%] [32mBuilding CXX object CMakeFiles/footprint_transform_publisher.dir/src/footprint_transform_publisher.cpp.o[0m
+[0.602s] [01m[K/root/ros2_ws/src/go2_nav2/src/footprint_transform_publisher.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp: No such file or directory
+[0.603s]     6 | #include [01;31m[K<tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp>[m[K
+[0.603s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.603s] compilation terminated.
+[0.610s] gmake[2]: *** [CMakeFiles/footprint_transform_publisher.dir/build.make:76: CMakeFiles/footprint_transform_publisher.dir/src/footprint_transform_publisher.cpp.o] Error 1
+[0.610s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/footprint_transform_publisher.dir/all] Error 2
+[0.610s] gmake: *** [Makefile:146: all] Error 2
+[0.615s] Invoked command in '/root/ros2_ws/src/build/go2_nav2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/go2_nav2 -- -j8 -l8

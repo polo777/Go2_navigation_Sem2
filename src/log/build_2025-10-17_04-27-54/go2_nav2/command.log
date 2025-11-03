@@ -1,0 +1,2 @@
+Invoking command in '/root/ros2_ws/src/build/go2_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/go2_nav2 -- -j8 -l8
+Invoked command in '/root/ros2_ws/src/build/go2_nav2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/go2_nav2 -- -j8 -l8

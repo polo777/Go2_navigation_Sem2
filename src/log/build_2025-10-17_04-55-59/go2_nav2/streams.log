@@ -1,0 +1,45 @@
+[0.024s] Invoking command in '/root/ros2_ws/src/build/go2_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/go2_nav2 -- -j8 -l8
+[0.073s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.312s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.326s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.377s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.381s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.390s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.406s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.426s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.479s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.483s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.513s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.588s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.629s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[0.635s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.751s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.756s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.758s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.780s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.912s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.912s] -- Configured cppcheck include dirs: /root/ros2_ws/src/go2_nav2/include
+[0.912s] -- Configured cppcheck exclude dirs and/or files: 
+[0.913s] -- Added test 'lint_cmake' to check CMake code style
+[0.914s] -- Added test 'uncrustify' to check C / C++ code style
+[0.914s] -- Configured uncrustify additional arguments: 
+[0.914s] -- Added test 'xmllint' to check XML markup files
+[0.916s] -- Configuring done
+[0.958s] -- Generating done
+[0.973s] -- Build files have been written to: /root/ros2_ws/src/build/go2_nav2
+[1.037s] [35m[1mConsolidate compiler generated dependencies of target odom_tf_broadcaster[0m
+[1.037s] [35m[1mConsolidate compiler generated dependencies of target transform_remapper[0m
+[1.037s] [35m[1mConsolidate compiler generated dependencies of target footprint_transform_publisher[0m
+[1.073s] [ 12%] [32mBuilding CXX object CMakeFiles/tf_tree_publisher_node.dir/src/tf_tree_publisher_node.cpp.o[0m
+[1.083s] [ 75%] Built target odom_tf_broadcaster
+[1.084s] [ 87%] Built target transform_remapper
+[1.084s] [ 87%] Built target footprint_transform_publisher
+[1.117s] [100%] [32m[1mLinking CXX executable tf_tree_publisher_node[0m
+[1.331s] /usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':
+[1.331s] (.text+0x1c): undefined reference to `main'
+[1.331s] /usr/bin/ld: (.text+0x20): undefined reference to `main'
+[1.337s] collect2: error: ld returned 1 exit status
+[1.340s] gmake[2]: *** [CMakeFiles/tf_tree_publisher_node.dir/build.make:198: tf_tree_publisher_node] Error 1
+[1.340s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/tf_tree_publisher_node.dir/all] Error 2
+[1.341s] gmake: *** [Makefile:146: all] Error 2
+[1.346s] Invoked command in '/root/ros2_ws/src/build/go2_nav2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/go2_nav2 -- -j8 -l8

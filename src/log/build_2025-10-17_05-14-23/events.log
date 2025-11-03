@@ -1,0 +1,229 @@
+[0.000000] (-) TimerEvent: {}
+[0.000603] (-) JobUnselected: {'identifier': 'bspline_opt'}
+[0.001082] (-) JobUnselected: {'identifier': 'cmake_utils'}
+[0.001324] (-) JobUnselected: {'identifier': 'drone_detect'}
+[0.001562] (-) JobUnselected: {'identifier': 'ego_planner'}
+[0.001641] (-) JobUnselected: {'identifier': 'go2_bringup'}
+[0.001699] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.001755] (-) JobUnselected: {'identifier': 'local_sensing'}
+[0.001809] (-) JobUnselected: {'identifier': 'map_generator'}
+[0.001860] (-) JobUnselected: {'identifier': 'mockamap'}
+[0.001912] (-) JobUnselected: {'identifier': 'multi_map_server'}
+[0.001963] (-) JobUnselected: {'identifier': 'odom_visualization'}
+[0.002016] (-) JobUnselected: {'identifier': 'path_searching'}
+[0.002070] (-) JobUnselected: {'identifier': 'plan_env'}
+[0.002122] (-) JobUnselected: {'identifier': 'pointcloud_to_laserscan'}
+[0.002176] (-) JobUnselected: {'identifier': 'poscmd_2_odom'}
+[0.002230] (-) JobUnselected: {'identifier': 'pose_utils'}
+[0.002280] (-) JobUnselected: {'identifier': 'quadrotor_msgs'}
+[0.002326] (-) JobUnselected: {'identifier': 'rosmsg_tcp_bridge'}
+[0.002383] (-) JobUnselected: {'identifier': 'rviz_2d_overlay_msgs'}
+[0.002430] (-) JobUnselected: {'identifier': 'rviz_2d_overlay_plugins'}
+[0.002477] (-) JobUnselected: {'identifier': 'so3_control'}
+[0.002609] (-) JobUnselected: {'identifier': 'so3_quadrotor_simulator'}
+[0.002669] (-) JobUnselected: {'identifier': 'super_odometry'}
+[0.002703] (-) JobUnselected: {'identifier': 'super_odometry_msgs'}
+[0.002734] (-) JobUnselected: {'identifier': 'traj_utils'}
+[0.002785] (-) JobUnselected: {'identifier': 'uav_utils'}
+[0.002818] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.002877] (go2_nav2) JobQueued: {'identifier': 'go2_nav2', 'dependencies': OrderedDict()}
+[0.003011] (go2_nav2) JobStarted: {'identifier': 'go2_nav2'}
+[0.026181] (go2_nav2) JobProgress: {'identifier': 'go2_nav2', 'progress': 'cmake'}
+[0.027214] (go2_nav2) JobProgress: {'identifier': 'go2_nav2', 'progress': 'build'}
+[0.028202] (go2_nav2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/src/build/go2_nav2', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/src/build/go2_nav2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/src/install/pointcloud_to_laserscan/lib:/root/ros2_ws/install/bspline_opt/lib:/root/ros2_ws/install/traj_utils/lib:/root/ros2_ws/install/super_odometry/lib:/root/ros2_ws/install/super_odometry_msgs/lib:/root/ros2_ws/install/so3_control/lib:/root/ros2_ws/install/rviz_2d_overlay_plugins/lib:/root/ros2_ws/install/rviz_2d_overlay_msgs/lib:/root/ros2_ws/install/multi_map_server/lib:/root/ros2_ws/install/quadrotor_msgs/lib:/root/ros2_ws/install/pose_utils/lib:/root/ros2_ws/install/path_searching/lib:/root/ros2_ws/install/plan_env/lib:/root/ros2_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/src/install:/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/src/install/go2_nav2:/root/ros2_ws/src/install/pointcloud_to_laserscan:/root/ros2_ws/install/waypoint_generator:/root/ros2_ws/install/so3_quadrotor_simulator:/root/ros2_ws/install/uav_utils:/root/ros2_ws/install/rosmsg_tcp_bridge:/root/ros2_ws/install/ego_planner:/root/ros2_ws/install/bspline_opt:/root/ros2_ws/install/traj_utils:/root/ros2_ws/install/super_odometry:/root/ros2_ws/install/super_odometry_msgs:/root/ros2_ws/install/so3_control:/root/ros2_ws/install/rviz_2d_overlay_plugins:/root/ros2_ws/install/rviz_2d_overlay_msgs:/root/ros2_ws/install/poscmd_2_odom:/root/ros2_ws/install/odom_visualization:/root/ros2_ws/install/multi_map_server:/root/ros2_ws/install/local_sensing:/root/ros2_ws/install/quadrotor_msgs:/root/ros2_ws/install/pose_utils:/root/ros2_ws/install/path_searching:/root/ros2_ws/install/plan_env:/root/ros2_ws/install/mockamap:/root/ros2_ws/install/map_generator:/root/ros2_ws/install/livox_ros_driver2:/root/ros2_ws/install/go2_nav2:/root/ros2_ws/install/go2_bringup:/root/ros2_ws/install/drone_detect:/root/ros2_ws/install/cmake_utils:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/src/build/go2_nav2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/traj_utils/local/lib/python3.10/dist-packages:/root/ros2_ws/install/super_odometry_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/multi_map_server/local/lib/python3.10/dist-packages:/root/ros2_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/src/install/go2_nav2:/root/ros2_ws/src/install/pointcloud_to_laserscan:/root/ros2_ws/install/waypoint_generator:/root/ros2_ws/install/so3_quadrotor_simulator:/root/ros2_ws/install/uav_utils:/root/ros2_ws/install/rosmsg_tcp_bridge:/root/ros2_ws/install/ego_planner:/root/ros2_ws/install/bspline_opt:/root/ros2_ws/install/traj_utils:/root/ros2_ws/install/super_odometry:/root/ros2_ws/install/super_odometry_msgs:/root/ros2_ws/install/so3_control:/root/ros2_ws/install/rviz_2d_overlay_plugins:/root/ros2_ws/install/rviz_2d_overlay_msgs:/root/ros2_ws/install/poscmd_2_odom:/root/ros2_ws/install/odom_visualization:/root/ros2_ws/install/multi_map_server:/root/ros2_ws/install/local_sensing:/root/ros2_ws/install/quadrotor_msgs:/root/ros2_ws/install/pose_utils:/root/ros2_ws/install/path_searching:/root/ros2_ws/install/plan_env:/root/ros2_ws/install/mockamap:/root/ros2_ws/install/map_generator:/root/ros2_ws/install/livox_ros_driver2:/root/ros2_ws/install/go2_nav2:/root/ros2_ws/install/go2_bringup:/root/ros2_ws/install/drone_detect:/root/ros2_ws/install/cmake_utils:/opt/ros/humble')]), 'shell': False}
+[0.099459] (-) TimerEvent: {}
+[0.125342] (go2_nav2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tf_tree_publisher_node\x1b[0m\n'}
+[0.156265] (go2_nav2) StdoutLine: {'line': b'[ 75%] Built target odom_tf_broadcaster\n'}
+[0.156736] (go2_nav2) StdoutLine: {'line': b'[ 75%] Built target footprint_transform_publisher\n'}
+[0.156892] (go2_nav2) StdoutLine: {'line': b'[ 75%] Built target transform_remapper\n'}
+[0.166021] (go2_nav2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/tf_tree_publisher_node.dir/src/tf_tree_publisher_node.cpp.o\x1b[0m\n'}
+[0.199662] (-) TimerEvent: {}
+[0.300339] (-) TimerEvent: {}
+[0.401107] (-) TimerEvent: {}
+[0.501810] (-) TimerEvent: {}
+[0.602489] (-) TimerEvent: {}
+[0.703220] (-) TimerEvent: {}
+[0.803882] (-) TimerEvent: {}
+[0.904565] (-) TimerEvent: {}
+[1.005230] (-) TimerEvent: {}
+[1.105909] (-) TimerEvent: {}
+[1.206580] (-) TimerEvent: {}
+[1.307256] (-) TimerEvent: {}
+[1.407939] (-) TimerEvent: {}
+[1.508606] (-) TimerEvent: {}
+[1.609222] (-) TimerEvent: {}
+[1.709914] (-) TimerEvent: {}
+[1.810599] (-) TimerEvent: {}
+[1.911256] (-) TimerEvent: {}
+[2.011911] (-) TimerEvent: {}
+[2.112552] (-) TimerEvent: {}
+[2.213218] (-) TimerEvent: {}
+[2.313866] (-) TimerEvent: {}
+[2.414507] (-) TimerEvent: {}
+[2.515154] (-) TimerEvent: {}
+[2.615805] (-) TimerEvent: {}
+[2.716482] (-) TimerEvent: {}
+[2.817150] (-) TimerEvent: {}
+[2.917806] (-) TimerEvent: {}
+[3.018467] (-) TimerEvent: {}
+[3.119145] (-) TimerEvent: {}
+[3.219809] (-) TimerEvent: {}
+[3.320470] (-) TimerEvent: {}
+[3.421163] (-) TimerEvent: {}
+[3.521817] (-) TimerEvent: {}
+[3.622469] (-) TimerEvent: {}
+[3.723135] (-) TimerEvent: {}
+[3.823792] (-) TimerEvent: {}
+[3.924448] (-) TimerEvent: {}
+[4.025150] (-) TimerEvent: {}
+[4.125959] (-) TimerEvent: {}
+[4.226659] (-) TimerEvent: {}
+[4.327530] (-) TimerEvent: {}
+[4.428202] (-) TimerEvent: {}
+[4.528879] (-) TimerEvent: {}
+[4.629580] (-) TimerEvent: {}
+[4.730279] (-) TimerEvent: {}
+[4.830943] (-) TimerEvent: {}
+[4.931624] (-) TimerEvent: {}
+[5.032300] (-) TimerEvent: {}
+[5.132973] (-) TimerEvent: {}
+[5.233664] (-) TimerEvent: {}
+[5.334326] (-) TimerEvent: {}
+[5.434971] (-) TimerEvent: {}
+[5.535611] (-) TimerEvent: {}
+[5.636272] (-) TimerEvent: {}
+[5.736909] (-) TimerEvent: {}
+[5.837580] (-) TimerEvent: {}
+[5.938226] (-) TimerEvent: {}
+[6.038882] (-) TimerEvent: {}
+[6.139546] (-) TimerEvent: {}
+[6.240187] (-) TimerEvent: {}
+[6.340821] (-) TimerEvent: {}
+[6.441487] (-) TimerEvent: {}
+[6.542122] (-) TimerEvent: {}
+[6.642773] (-) TimerEvent: {}
+[6.743411] (-) TimerEvent: {}
+[6.844061] (-) TimerEvent: {}
+[6.944729] (-) TimerEvent: {}
+[7.045403] (-) TimerEvent: {}
+[7.146064] (-) TimerEvent: {}
+[7.246695] (-) TimerEvent: {}
+[7.347338] (-) TimerEvent: {}
+[7.447975] (-) TimerEvent: {}
+[7.548627] (-) TimerEvent: {}
+[7.649380] (-) TimerEvent: {}
+[7.750054] (-) TimerEvent: {}
+[7.850708] (-) TimerEvent: {}
+[7.951374] (-) TimerEvent: {}
+[8.052066] (-) TimerEvent: {}
+[8.152968] (-) TimerEvent: {}
+[8.253659] (-) TimerEvent: {}
+[8.354312] (-) TimerEvent: {}
+[8.454949] (-) TimerEvent: {}
+[8.555584] (-) TimerEvent: {}
+[8.656236] (-) TimerEvent: {}
+[8.756882] (-) TimerEvent: {}
+[8.857536] (-) TimerEvent: {}
+[8.958171] (-) TimerEvent: {}
+[9.058820] (-) TimerEvent: {}
+[9.159464] (-) TimerEvent: {}
+[9.260125] (-) TimerEvent: {}
+[9.360776] (-) TimerEvent: {}
+[9.461437] (-) TimerEvent: {}
+[9.562079] (-) TimerEvent: {}
+[9.662734] (-) TimerEvent: {}
+[9.763377] (-) TimerEvent: {}
+[9.864040] (-) TimerEvent: {}
+[9.964920] (-) TimerEvent: {}
+[10.065598] (-) TimerEvent: {}
+[10.166245] (-) TimerEvent: {}
+[10.266873] (-) TimerEvent: {}
+[10.367515] (-) TimerEvent: {}
+[10.468143] (-) TimerEvent: {}
+[10.568762] (-) TimerEvent: {}
+[10.669426] (-) TimerEvent: {}
+[10.770217] (-) TimerEvent: {}
+[10.870859] (-) TimerEvent: {}
+[10.971516] (-) TimerEvent: {}
+[11.072143] (-) TimerEvent: {}
+[11.172767] (-) TimerEvent: {}
+[11.273412] (-) TimerEvent: {}
+[11.374031] (-) TimerEvent: {}
+[11.474644] (-) TimerEvent: {}
+[11.575507] (-) TimerEvent: {}
+[11.676154] (-) TimerEvent: {}
+[11.776781] (-) TimerEvent: {}
+[11.877412] (-) TimerEvent: {}
+[11.978049] (-) TimerEvent: {}
+[12.078703] (-) TimerEvent: {}
+[12.179355] (-) TimerEvent: {}
+[12.280015] (-) TimerEvent: {}
+[12.380660] (-) TimerEvent: {}
+[12.481303] (-) TimerEvent: {}
+[12.582127] (-) TimerEvent: {}
+[12.682949] (-) TimerEvent: {}
+[12.783599] (-) TimerEvent: {}
+[12.884256] (-) TimerEvent: {}
+[12.984896] (-) TimerEvent: {}
+[13.085557] (-) TimerEvent: {}
+[13.186212] (-) TimerEvent: {}
+[13.286861] (-) TimerEvent: {}
+[13.387477] (-) TimerEvent: {}
+[13.488104] (-) TimerEvent: {}
+[13.588717] (-) TimerEvent: {}
+[13.689345] (-) TimerEvent: {}
+[13.789975] (-) TimerEvent: {}
+[13.890619] (-) TimerEvent: {}
+[13.991247] (-) TimerEvent: {}
+[14.091871] (-) TimerEvent: {}
+[14.192509] (-) TimerEvent: {}
+[14.293190] (-) TimerEvent: {}
+[14.393837] (-) TimerEvent: {}
+[14.494694] (-) TimerEvent: {}
+[14.595573] (-) TimerEvent: {}
+[14.696243] (-) TimerEvent: {}
+[14.796893] (-) TimerEvent: {}
+[14.897800] (-) TimerEvent: {}
+[14.998476] (-) TimerEvent: {}
+[15.099141] (-) TimerEvent: {}
+[15.199838] (-) TimerEvent: {}
+[15.300462] (-) TimerEvent: {}
+[15.309020] (go2_nav2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tf_tree_publisher_node\x1b[0m\n'}
+[15.400634] (-) TimerEvent: {}
+[15.501407] (-) TimerEvent: {}
+[15.602168] (-) TimerEvent: {}
+[15.702977] (-) TimerEvent: {}
+[15.803688] (-) TimerEvent: {}
+[15.904361] (-) TimerEvent: {}
+[16.005055] (-) TimerEvent: {}
+[16.105736] (-) TimerEvent: {}
+[16.172036] (go2_nav2) StdoutLine: {'line': b'[100%] Built target tf_tree_publisher_node\n'}
+[16.195030] (go2_nav2) CommandEnded: {'returncode': 0}
+[16.196188] (go2_nav2) JobProgress: {'identifier': 'go2_nav2', 'progress': 'install'}
+[16.205865] (-) TimerEvent: {}
+[16.212612] (go2_nav2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/src/build/go2_nav2'], 'cwd': '/root/ros2_ws/src/build/go2_nav2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/src/install/pointcloud_to_laserscan/lib:/root/ros2_ws/install/bspline_opt/lib:/root/ros2_ws/install/traj_utils/lib:/root/ros2_ws/install/super_odometry/lib:/root/ros2_ws/install/super_odometry_msgs/lib:/root/ros2_ws/install/so3_control/lib:/root/ros2_ws/install/rviz_2d_overlay_plugins/lib:/root/ros2_ws/install/rviz_2d_overlay_msgs/lib:/root/ros2_ws/install/multi_map_server/lib:/root/ros2_ws/install/quadrotor_msgs/lib:/root/ros2_ws/install/pose_utils/lib:/root/ros2_ws/install/path_searching/lib:/root/ros2_ws/install/plan_env/lib:/root/ros2_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/src/install:/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/src/install/go2_nav2:/root/ros2_ws/src/install/pointcloud_to_laserscan:/root/ros2_ws/install/waypoint_generator:/root/ros2_ws/install/so3_quadrotor_simulator:/root/ros2_ws/install/uav_utils:/root/ros2_ws/install/rosmsg_tcp_bridge:/root/ros2_ws/install/ego_planner:/root/ros2_ws/install/bspline_opt:/root/ros2_ws/install/traj_utils:/root/ros2_ws/install/super_odometry:/root/ros2_ws/install/super_odometry_msgs:/root/ros2_ws/install/so3_control:/root/ros2_ws/install/rviz_2d_overlay_plugins:/root/ros2_ws/install/rviz_2d_overlay_msgs:/root/ros2_ws/install/poscmd_2_odom:/root/ros2_ws/install/odom_visualization:/root/ros2_ws/install/multi_map_server:/root/ros2_ws/install/local_sensing:/root/ros2_ws/install/quadrotor_msgs:/root/ros2_ws/install/pose_utils:/root/ros2_ws/install/path_searching:/root/ros2_ws/install/plan_env:/root/ros2_ws/install/mockamap:/root/ros2_ws/install/map_generator:/root/ros2_ws/install/livox_ros_driver2:/root/ros2_ws/install/go2_nav2:/root/ros2_ws/install/go2_bringup:/root/ros2_ws/install/drone_detect:/root/ros2_ws/install/cmake_utils:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/src/build/go2_nav2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/traj_utils/local/lib/python3.10/dist-packages:/root/ros2_ws/install/super_odometry_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/rviz_2d_overlay_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/multi_map_server/local/lib/python3.10/dist-packages:/root/ros2_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/src/install/go2_nav2:/root/ros2_ws/src/install/pointcloud_to_laserscan:/root/ros2_ws/install/waypoint_generator:/root/ros2_ws/install/so3_quadrotor_simulator:/root/ros2_ws/install/uav_utils:/root/ros2_ws/install/rosmsg_tcp_bridge:/root/ros2_ws/install/ego_planner:/root/ros2_ws/install/bspline_opt:/root/ros2_ws/install/traj_utils:/root/ros2_ws/install/super_odometry:/root/ros2_ws/install/super_odometry_msgs:/root/ros2_ws/install/so3_control:/root/ros2_ws/install/rviz_2d_overlay_plugins:/root/ros2_ws/install/rviz_2d_overlay_msgs:/root/ros2_ws/install/poscmd_2_odom:/root/ros2_ws/install/odom_visualization:/root/ros2_ws/install/multi_map_server:/root/ros2_ws/install/local_sensing:/root/ros2_ws/install/quadrotor_msgs:/root/ros2_ws/install/pose_utils:/root/ros2_ws/install/path_searching:/root/ros2_ws/install/plan_env:/root/ros2_ws/install/mockamap:/root/ros2_ws/install/map_generator:/root/ros2_ws/install/livox_ros_driver2:/root/ros2_ws/install/go2_nav2:/root/ros2_ws/install/go2_bringup:/root/ros2_ws/install/drone_detect:/root/ros2_ws/install/cmake_utils:/opt/ros/humble')]), 'shell': False}
+[16.229626] (go2_nav2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.230224] (go2_nav2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[16.230739] (go2_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/lib/go2_nav2/odom_tf_broadcaster\n'}
+[16.230980] (go2_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/lib/go2_nav2/transform_remapper\n'}
+[16.231205] (go2_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/lib/go2_nav2/footprint_transform_publisher\n'}
+[16.231418] (go2_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/lib/go2_nav2/tf_tree_publisher_node\n'}
+[16.231717] (go2_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/ament_index/resource_index/package_run_dependencies/go2_nav2\n'}
+[16.231974] (go2_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/ament_index/resource_index/parent_prefix_path/go2_nav2\n'}
+[16.232236] (go2_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/environment/ament_prefix_path.sh\n'}
+[16.232512] (go2_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/environment/ament_prefix_path.dsv\n'}
+[16.232709] (go2_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/environment/path.sh\n'}
+[16.232923] (go2_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/environment/path.dsv\n'}
+[16.233159] (go2_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/local_setup.bash\n'}
+[16.233427] (go2_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/local_setup.sh\n'}
+[16.233617] (go2_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/local_setup.zsh\n'}
+[16.233854] (go2_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/local_setup.dsv\n'}
+[16.234019] (go2_nav2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/package.dsv\n'}
+[16.252539] (go2_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/ament_index/resource_index/packages/go2_nav2\n'}
+[16.252974] (go2_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/cmake/go2_nav2Config.cmake\n'}
+[16.253173] (go2_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/cmake/go2_nav2Config-version.cmake\n'}
+[16.253294] (go2_nav2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/src/install/go2_nav2/share/go2_nav2/package.xml\n'}
+[16.256335] (go2_nav2) CommandEnded: {'returncode': 0}
+[16.306075] (-) TimerEvent: {}
+[16.308575] (go2_nav2) JobEnded: {'identifier': 'go2_nav2', 'rc': 0}
+[16.310063] (-) EventReactorShutdown: {}

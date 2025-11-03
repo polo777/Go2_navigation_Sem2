@@ -1,0 +1,1 @@
+/root/ros2_ws/src/go2_bringup/launch/nav2_testing.launch.py
